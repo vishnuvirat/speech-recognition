@@ -2,7 +2,7 @@ Steps for home automation project to run:
 
 - Connect the raspberry pi and the laptop to the same wifi.
 - In the raspberry pi → terminal, navigate to the place where the flask file exists. (i.e, Desktop)
-- Then enter the command “flask run –host=0.0.0.0”
+- Then enter the command “flask run -–host=0.0.0.0”
 - In raspberry pi → terminal → enter “ip addr” to know the local and global IP addresses of the wifi
 - Note the global IP address. (ex : 192.168.1.27)
 - In Laptop, open the project navigate to → speech recognition → home automation → src → config.js
